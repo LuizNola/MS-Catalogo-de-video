@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.admin.catalogo.infrastructure.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-02T19:30:19" hostname="PRAVALER-270" time="0.019">
+  <properties/>
+  <testcase name="TestMain()" classname="com.admin.catalogo.infrastructure.MainTest" time="0.019"/>
+  <system-out><![CDATA[Hello world!
+com.admin.catalogo.domain.Category@60099951
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

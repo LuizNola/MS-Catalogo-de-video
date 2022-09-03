@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.admin.catalogo.domain.category.CategoryTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-08-30T13:23:12" hostname="PRAVALER-270" time="0.036">
+  <properties/>
+  <testcase name="giveAValidFalseIsActive_whenCallNewCategory_thenInstantiateACategory()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.019"/>
+  <testcase name="givenAValidCategory_whenCallUpdateToInactive_ThenReturnCategoryUpdated()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.002"/>
+  <testcase name="giveAValidParams_whenCallNewCategory_thenInstantiateACategory()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="giveAInvalidNameLengthMoreThan255_whenCallNewCategory_thenShouldReceiveError()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.002"/>
+  <testcase name="givenAValidActiveCategory_whenCallDeactivate_thenReturnCategoryInactivated()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="giveAInvalidEmptyName_whenCallNewCategory_thenShouldReceiveError()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="givenAValidCategory_whenCallUpdate_ThenReturnCategoryUpdated()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="giveAValidEmptyDescription_whenCallNewCategory_thenInstantiateACategory()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="givenAValidInactiveCategory_whenCallActivate_thenReturnCategoryActivate()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.002"/>
+  <testcase name="giveAInvalidNameLengthLessThan3_whenCallNewCategory_thenShouldReceiveError()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="givenAValidCategory_whenCallUpdateWithInvalidParams_ThenReturnCategoryUpdated()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="giveAInvalidNullName_whenCallNewCategory_thenShouldReceiveError()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

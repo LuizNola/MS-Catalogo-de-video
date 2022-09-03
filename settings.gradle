@@ -1,0 +1,5 @@
+rootProject.name = 'MS-admin-do-catalogo'
+include 'domain'
+include 'application'
+include 'infrastructure'
+
