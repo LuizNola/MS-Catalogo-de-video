@@ -16,14 +16,14 @@ public class DefaultCreateCategoryUseCase extends CreateCategoryUseCase{
 
     @Override
     public CreateCategoryOutput execute(final CreateCategoryCommand aCommand) {
+
         final var aName = aCommand.name();
         final var aDescription = aCommand.description();
         final var isActive = aCommand.isActive();
 
         final var aCategory = Category.newCategory(aName, aDescription, isActive);
-        aCategory.validate(new ThrowsValidationHandler());
 
-        this.categoryGateway.create(aCategory);
+        aCategory.validate(new ThrowsValidationHandler());
 
         return CreateCategoryOutput.from(this.categoryGateway.create(aCategory));
     }
