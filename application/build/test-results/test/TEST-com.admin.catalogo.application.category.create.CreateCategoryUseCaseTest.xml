@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.admin.catalogo.application.category.create.CreateCategoryUseCaseTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-09-08T13:48:45" hostname="PRAVALER-270" time="0.256">
+<testsuite name="com.admin.catalogo.application.category.create.CreateCategoryUseCaseTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-09-08T21:26:05" hostname="PRAVALER-270" time="0.414">
   <properties/>
-  <testcase name="givenAValidCommand_whenGatewayThrowsRandomException_shouldReturnAException()" classname="com.admin.catalogo.application.category.create.CreateCategoryUseCaseTest" time="0.248"/>
-  <testcase name="givenAValidCommand_whenCallsCreateCategory_shouldReturnCategoryId()" classname="com.admin.catalogo.application.category.create.CreateCategoryUseCaseTest" time="0.003"/>
+  <testcase name="givenAValidCommand_whenGatewayThrowsRandomException_shouldReturnAException()" classname="com.admin.catalogo.application.category.create.CreateCategoryUseCaseTest" time="0.4"/>
+  <testcase name="givenAValidCommand_whenCallsCreateCategory_shouldReturnCategoryId()" classname="com.admin.catalogo.application.category.create.CreateCategoryUseCaseTest" time="0.006"/>
   <testcase name="givenAInvalidName_whenCallsCreateCategory_thenShouldDomainException()" classname="com.admin.catalogo.application.category.create.CreateCategoryUseCaseTest" time="0.002"/>
-  <testcase name="givenAValidCommandWithInactiveCategory_whenCallsCreateCategory_shouldReturnInactiveCategoryId()" classname="com.admin.catalogo.application.category.create.CreateCategoryUseCaseTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenAValidCommandWithInactiveCategory_whenCallsCreateCategory_shouldReturnInactiveCategoryId()" classname="com.admin.catalogo.application.category.create.CreateCategoryUseCaseTest" time="0.003"/>
+  <system-out><![CDATA[[]
+[Error[message=Gateway Error]]
+[]
+[Error[message='name' should not be null]]
+[]
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
